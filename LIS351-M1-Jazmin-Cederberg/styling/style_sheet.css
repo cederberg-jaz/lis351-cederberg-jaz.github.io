@@ -1,0 +1,66 @@
+/*CSS Style Sheet*/
+
+.alt_layout{
+    float: right;
+    width: 30%;
+    height: auto;
+    padding: 50px;
+}
+
+.alt_layout2{
+    text-align: left;
+    float:left;
+    padding: 25px;
+}
+
+.alt_layout3{
+    align-items:left;
+}
+
+body{
+    background-color: darkseagreen;
+    padding: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1{
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+h2{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 25px;
+}
+
+.facts{
+    display: list-item;
+    float: left;
+    list-style:circle;
+    padding: 25px;
+}
+
+li{
+    float: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    list-style: none;
+    text-decoration: none;
+    display: inline-block;
+    
+}
+
+nav{
+    align-items: center;
+    font-weight: bold;
+    background-color: azure;
+    text-shadow: 2px 2px 2px lavender;
+    color:indigo;
+    padding: 15px;
+}
+
+li a.active{
+    color:rgb(204, 16, 69);
+    text-decoration: none;
+}
